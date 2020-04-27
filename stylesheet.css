@@ -1,0 +1,10 @@
+.nav-item{
+  list-style-type: none;
+  margin-top: auto: 5px;
+  padding: 10px;
+  display: inline-flex;
+}
+.foodpic2 , .foodpic1{width: 200px}
+h1 {text-align: center;}
+.opening {text-transform: full-width;; font-style: italic; font-size: large; padding-left: 150px; padding-right: 150px; padding-top: 50px }
+.foodinduction {text-transform: center; full-width;; font-size: medium; padding-left: 150px;padding-right: 150px}
