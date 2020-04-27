@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My webpage for project0</title>
+  <link href="stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+  <div>
+    <h1>My Vacations</h1>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home" aria-selected="false">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Venezuelan Cuisine-tab" data-toggle="tab" href="Venezuelan%20Cuisine.html" role="tab" aria-controls="Venezuelan Cuisine" aria-selected="false">Venezuelan Cuisine</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="Travel-tab" data-toggle="tab" href="Travel.html" role="tab" aria-controls="Travel" aria-selected="true">Travel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Hobbies-tab" data-toggle="tab" href="hobbies.html" role="tab" aria-controls="Hobbies" aria-selected="false">Hobbies</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+      <div class="tab-pane fade" id="Venezuelan Cuisine" role="tabpanel" aria-labelledby="Venezuelan Cuisine-tab"></div>
+      <div class="tab-pane fade show active" id="Travel" role="tabpanel" aria-labelledby="Travel-tab"></div>
+      <div class="tab-pane fade" id="Hobbies" role="tabpanel" aria-labelledby="Hobbies-tab"></div>
+    </div>
